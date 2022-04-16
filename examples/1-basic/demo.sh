@@ -5,7 +5,7 @@ demo_helper_type_speed=3000
 # shellcheck source=../../tools/demo-helper.sh
 source "$(dirname "$0")/../../tools/demo-helper.sh"
 
-comment "(1/9). Going into demo-src directory"
+comment "(1/9). Go into demo-src directory"
 execute "mkdir demo-src; cd demo-src"
 
 # shellcheck disable=SC2016
