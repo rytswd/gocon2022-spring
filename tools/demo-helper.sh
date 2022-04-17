@@ -35,11 +35,16 @@ __yellow=$(
     tput bold
     tput setaf 3
 )
+__white=$(
+    tput bold
+    tput setaf 7
+)
 readonly reset=$__reset
 readonly red=$__red
 readonly green=$__green
 readonly blue=$__blue
 readonly yellow=$__yellow
+readonly white=$__white
 
 # Speed
 type_speed=${demo_helper_type_speed:="1200"} # In characters per min notation
@@ -103,6 +108,15 @@ function comment_g() {
 # comment_b writes comment in blue
 function comment_b() {
     echo -n "$blue# "
+    type_out "$*"
+    echo " $reset"
+    write_prompt
+    read -rs
+}
+
+# comment_w writes comment in white
+function comment_w() {
+    echo -n "$white# "
     type_out "$*"
     echo " $reset"
     write_prompt
