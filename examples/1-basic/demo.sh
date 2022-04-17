@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-demo_helper_type_speed=3000
+demo_helper_type_speed=5000
 
 # shellcheck source=../../tools/demo-helper.sh
 source "$(dirname "$0")/../../tools/demo-helper.sh"
@@ -26,10 +26,10 @@ comment '(5/9). Try running `go run main.go`'
 execute "go run main.go"
 
 # shellcheck disable=SC2016
-comment "(6/9). Go module needs to know about the dependency details, let's run" '`go mod tidy`'
+comment '(6/9). Run `go mod tidy` as Go module needs to know about the dependency details'
 execute "go mod tidy"
 
-comment "(7/9). Let's see what happened to go.mod"
+comment "(7/9). See what happened to go.mod"
 execute "cat go.mod"
 
 comment "(8/9). Also, we got a new file called 'go.sum'"
