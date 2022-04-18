@@ -13,7 +13,7 @@ func main() {
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="go-import" content="go.rytswd/gocon-main-demo git https://github.com/rytswd/gocon2022-spring/examples/3-all-in-one">
+        <meta name="go-import" content="go.rytswd/gocon-main-demo git https://github.com/rytswd/gocon2022-spring">
     </head>
     <body>
         Hello Go Conference!
