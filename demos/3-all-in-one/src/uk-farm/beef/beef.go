@@ -1,5 +1,5 @@
 package beef
 
-func BeefForSteak() string {
-	return "Beef from UK, perfect for steak!"
+func SirloinSteak() string {
+	return "Tasty sirloin steak from UK!"
 }
