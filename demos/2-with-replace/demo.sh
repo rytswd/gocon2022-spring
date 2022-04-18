@@ -26,7 +26,7 @@ comment "(3/8). Check how the files are structured right now"
 execute "tree ."
 
 comment "(4/8). Add some implementation code for each module"
-comment_g "-- Copying code from examples/2-with-replace/src, which has each module defined the same way."
+comment_g "-- Copying code from demos/2-with-replace/src, which has each module defined the same way."
 cp -r ../src/brazil-farm/coffee brazil-farm/
 cp -r ../src/colombia-farm/coffee colombia-farm/
 cp -r ../src/uk-farm/milk uk-farm/
@@ -42,7 +42,7 @@ execute 'cat uk-farm/milk/milk.go'
 comment "(5/8). Create a new module that depends on all 3 modules"
 execute "mkdir gocon-cafe; cd gocon-cafe"
 execute "go mod init gocon.cafe"
-comment_g "-- Copying main.go from examples/2-with-replace/src"
+comment_g "-- Copying main.go from demos/2-with-replace/src"
 cp -r ../../src/gocon-cafe/main.go .
 execute "tree ."
 execute 'cat main.go'

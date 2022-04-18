@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.rytswd/gocon-main-demo/examples/3-all-in-one/src/uk-farm/beef"
+	"go.rytswd/gocon-main-demo/demos/3-all-in-one/src/uk-farm/beef"
 )
 
 func main() {

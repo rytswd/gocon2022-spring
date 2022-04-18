@@ -1,4 +1,4 @@
-module github.com/rytswd/gocon2022-spring/examples/1-basic/src
+module github.com/rytswd/gocon2022-spring/demos/1-basic/src
 
 go 1.18
 

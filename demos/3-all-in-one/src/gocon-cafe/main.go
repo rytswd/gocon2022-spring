@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	brazil_coffee "go.rytswd/gocon-main-demo/examples/3-all-in-one/src/brazil-farm/coffee"
-	colombia_coffee "go.rytswd/gocon-main-demo/examples/3-all-in-one/src/colombia-farm/coffee"
-	"go.rytswd/gocon-main-demo/examples/3-all-in-one/src/uk-farm/milk"
+	brazil_coffee "go.rytswd/gocon-main-demo/demos/3-all-in-one/src/brazil-farm/coffee"
+	colombia_coffee "go.rytswd/gocon-main-demo/demos/3-all-in-one/src/colombia-farm/coffee"
+	"go.rytswd/gocon-main-demo/demos/3-all-in-one/src/uk-farm/milk"
 )
 
 func main() {
