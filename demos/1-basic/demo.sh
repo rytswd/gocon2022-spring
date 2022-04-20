@@ -17,8 +17,7 @@ execute "cat go.mod"
 
 comment "(4/9). Create a simple main.go for testing module resolution"
 comment_g "-- Copying code from demos/1-basic/src/main.go"
-cp ../src/main.go .
-comment_g "-- Let's check its content"
+execute "cp ../src/main.go ."
 execute "cat main.go"
 
 # shellcheck disable=SC2016

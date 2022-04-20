@@ -16,7 +16,7 @@ func main() {
 	time.Sleep(time.Second)
 	fmt.Printf(".\n")
 
-	m := beef.BeefForSteak()
+	m := beef.SirloinSteak()
 
-	fmt.Printf("Here goes your Steak!\n\n-- Ingredients were:\n\t%s", m)
+	fmt.Printf("Here goes your Steak!\n\n-- Ingredients:\n\t%s", m)
 }

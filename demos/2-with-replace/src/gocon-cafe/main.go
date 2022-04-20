@@ -29,7 +29,7 @@ func MakeLatte() {
 	c := brazil_coffee.FruityCoffee()
 	m := milk.WarmMilk()
 
-	fmt.Printf("Here goes your Latte!\n\n-- Ingredients were:\n\t%s\n\t%s\n\n", c, m)
+	fmt.Printf("Here goes your Latte!\n\n-- Ingredients:\n\t%s\n\t%s\n\n", c, m)
 }
 
 func MakeFlatWhite() {
@@ -44,5 +44,5 @@ func MakeFlatWhite() {
 	c := colombia_coffee.DarkRoastedCoffee()
 	m := milk.WarmMilk()
 
-	fmt.Printf("Here goes your Flat White!\n\n-- Ingredients were:\n\t%s\n\t%s\n", c, m)
+	fmt.Printf("Here goes your Flat White!\n\n-- Ingredients:\n\t%s\n\t%s\n", c, m)
 }
